@@ -88,21 +88,23 @@ export default {
   @import '~theme/css/helpers/functions/color';
   $color-silver: color(silver);
   $color-white: color(white);
+  $main-green: color(main-green);
 
   span.active-filter-label {
     height: 30px;
     line-height: 30px;
     color: $color-white;
     display: inline-block;
-    background-color: $color-silver;
-    margin: 0px 10px 0px 0px;
+    background-color: $main-green;
+    margin: 0px 10px 10px 0px;
     padding: 0px 15px;
+    border-radius: 4px;
     i {
       cursor: pointer;
       margin-left: 5px;
-      font-size: 16px;
+      font-size: 12px;
       position: relative;
-      top: 3px;
+      top: 2px;;
       font-weight: 600;
     }
   }
